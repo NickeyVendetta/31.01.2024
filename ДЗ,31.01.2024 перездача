@@ -1,0 +1,61 @@
+import random
+##18
+##
+##def el(A):
+##    result = 0
+##    for num in A:
+##        if num < A[-1]:
+##            result = num
+##            break
+##    return result
+##
+##
+##lst = [random.randint(1, 10) for _ in range(10)]
+##
+##
+##result = el(lst)
+##
+##if result != 0:
+##    print( result)
+##else:
+##    print(0)
+
+##19
+##
+##def el(A):
+##    result = 0
+##    for i in range(len(A)):
+##        if A[0] < A[i] < A[-1]:
+##            result = i
+##    return result
+##
+##
+##lst = [random.randint(1, 10) for _ in range(10)]
+##
+##
+##result = el(lst)
+##
+##if result != 0:
+##    print(result)
+##else:
+##    print(0)
+
+##20
+##def sumel(A, K, L):
+##    result = 0
+##    for i in range(K-1, L):
+##        result += A[i]
+##    return result
+##
+##
+##lst = [random.randint(1, 10) for _ in range(10)]
+##K = 3
+##L = 7
+##
+##
+##result = sumel(lst, K, L)
+##
+##
+##print("Сумма элементов сномерами от", K, "до", L, "включительно:", result)
+##
+
